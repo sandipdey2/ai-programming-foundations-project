@@ -1,36 +1,29 @@
 # AI Programming Foundations Project
 
-## Project Description
-This project implements a complete, reproducible data workflow on the Titanic passenger dataset. It demonstrates modular data cleaning, exploratory analysis, and visualization using Python, Pandas, NumPy, Matplotlib, and Seaborn. The workflow is designed as a foundation for future machine learning projects.
+**GitHub Repository:** https://github.com/sandipdey2/ai-programming-foundations-project
 
-## What You Built
-- A Jupyter Notebook (`data_workflow.ipynb`) containing the full data pipeline
-- Two cleaning functions with docstrings
-- An exploratory analysis function
-- Three labeled visualizations
-- Supporting files for reproducibility
+A complete, reproducible data workflow using the Titanic dataset. The notebook loads the data, applies two cleaning functions, performs exploratory analysis, creates three visualizations, and summarizes findings.
 
-## Dataset
-**Titanic - Machine Learning from Disaster**  
-Source: https://www.kaggle.com/c/titanic/data  
-(Public mirror used in this repository: included as `titanic.csv`)
+## Project Contents
 
-## How to Run the Project
+- `data_workflow.ipynb` — Full Jupyter notebook with cleaning, EDA, and visualizations
+- `module_summary.pdf` — Written summary with academic citations
+- `requirements.txt` — Pinned dependencies
+- `titanic.csv` — Titanic dataset
 
-### 1. Install dependencies
+## How to Run
+
 ```bash
+git clone https://github.com/sandipdey2/ai-programming-foundations-project.git
+cd ai-programming-foundations-project
 pip install -r requirements.txt
-```
-
-### 2. Open and run the notebook
-```bash
 jupyter notebook data_workflow.ipynb
 ```
-Or use JupyterLab / VS Code / Google Colab.  
-Run all cells from top to bottom.
 
-## Requirements
-See `requirements.txt` (generated with `pip freeze`).
+## Reproducibility
 
-## Git Workflow
-This repository uses a `develop` branch for feature work and `main` for the final version. Multiple commits document progress.
+The repository contains `main` and `develop` branches with multiple commits showing progress. Dependencies are recorded in `requirements.txt`.
+
+## Author
+
+Sandip Dey
